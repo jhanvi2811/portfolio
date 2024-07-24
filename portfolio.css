@@ -1,0 +1,195 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 90%; 
+    margin: auto;
+    overflow: hidden; 
+
+
+
+}
+
+header {
+    background: skyblue;
+    color: white;
+    padding-top: 20px;
+    min-height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.header-left {
+
+  font-size: 10px;
+  font-weight: bold;
+
+
+
+
+
+}
+
+.header-right {
+
+  display: flex;
+  align-items: center;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.section {
+    padding: 30px 0;
+
+}
+
+#about {
+    background-color: white;
+    text-align: center;
+
+}
+
+#about .bio {
+    display: inline;
+    max-width: 100px;
+    text-align: center;
+
+
+}
+
+#about img {
+  height: 30vh;
+  width: 30vh;
+}
+
+
+#skills {
+  padding: 40px 0;
+  background-color: pink;
+}
+
+#skills h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+
+#skills .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+#skills .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#skills .skill img {
+  max-width: 100px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#skills .skill p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: yellowgreen;
+}
+
+
+
+  #Project {
+    text-align: center;
+    background: whitesmoke;
+  }
+
+  
+
+  .project img {
+    width: 2250;
+    height: 250px;
+    align-items: center;
+
+  }
+
+  
+
+  #Resume {
+    text-align: center;
+    display: block;
+    align-items: center;
+    background: peachpuff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#Resume h1 {
+    margin: 0;
+    padding: 20px;
+}
+
+#Resume button {
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+  .Contact {
+    text-align: center;
+    background: whitesmoke;
+
+  }
+
+footer {
+  text-align: center;
+  background: skyblue;
+  padding: 10px;
+}
+
+ 
+
+
